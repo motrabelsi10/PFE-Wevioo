@@ -1,0 +1,5 @@
+INFO    11 Feb 2025 13:21:46 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by roleAnonymous: Update list applist. _Update userview home. _Update internal INTERNAL_TAGGING. _Update INTERNAL_USERVIEW_PAGE up-8C70B71371B942B6D48A7E9B4C1DB8D1. _Update app definition appcenter. _Update app config appcenter. _
+INFO    11 Feb 2025 13:21:55 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    11 Feb 2025 13:53:47 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    11 Feb 2025 13:53:47 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
+INFO    11 Feb 2025 13:53:47 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.

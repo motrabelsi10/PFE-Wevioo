@@ -1,0 +1,51 @@
+version: '3.8'
+
+services:
+  joget:
+    container_name: jogetapp
+    image: jogetworkflow/joget-community
+    restart: unless-stopped
+    environment:
+      MYSQL_HOST: jogetdb
+      MYSQL_DATABASE: jwdb
+      MYSQL_PORT: 3306
+      MYSQL_USER: joget
+      MYSQL_PASSWORD: joget
+    volumes:
+      - jogetdata:/opt/joget/wflow
+    networks:
+      - joget-backend
+    ports:
+      - "8080:8080"
+    depends_on:
+      jogetdb:
+        condition: service_healthy
+
+  jogetdb:
+    container_name: jogetdb
+    image: mysql:8.0
+    restart: unless-stopped
+    environment:
+      MYSQL_ROOT_PASSWORD: rootpass
+      MYSQL_DATABASE: jwdb
+      MYSQL_USER: joget
+      MYSQL_PASSWORD: joget
+    command: --default-authentication-plugin=mysql_native_password
+    volumes:
+      - mysqldata:/var/lib/mysql
+    networks:
+      - joget-backend
+    ports:
+      - "3306:3306"  # Expose MySQL for Workbench
+    healthcheck:
+      test: ["CMD", "mysqladmin", "ping", "-h", "localhost"]
+      timeout: 20s
+      retries: 10
+
+volumes:
+  jogetdata:
+  mysqldata:
+
+networks:
+  joget-backend:
+

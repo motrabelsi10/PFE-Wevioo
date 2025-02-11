@@ -1,0 +1,12 @@
+INFO    11 Feb 2025 13:22:40 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Initial commit for app_1
+INFO    11 Feb 2025 13:22:41 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition app. _Update app config app. _
+INFO    11 Feb 2025 13:22:41 org.joget.apps.app.service.AppDevUtil - Git is locked. Wait 100ms...
+INFO    11 Feb 2025 13:23:05 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form student. _
+INFO    11 Feb 2025 13:25:48 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
+INFO    11 Feb 2025 13:27:37 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add userview app. _
+INFO    11 Feb 2025 13:29:33 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
+INFO    11 Feb 2025 13:29:49 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
+ERROR   11 Feb 2025 13:30:22 org.hibernate.engine.jdbc.spi.SqlExceptionHelper - (conn=48) Table 'jwdb.app_fd_student' doesn't exist
+INFO    11 Feb 2025 13:35:18 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
+INFO    11 Feb 2025 13:40:24 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
+INFO    11 Feb 2025 13:40:32 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
