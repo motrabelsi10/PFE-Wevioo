@@ -1,37 +1,71 @@
-INFO    11 Feb 2025 13:21:19 org.joget.apps.app.service.AppDevUtil - Git project not found, first time init for app {id=appcenter, version=1, published=true}
-ERROR   11 Feb 2025 13:21:33 org.eclipse.jgit.util.FS - Cannot save config file 'FileBasedConfig[/home/tomcat/.config/jgit/config]'
-java.io.IOException: Creating directories for /home/tomcat/.config/jgit failed
-	at org.eclipse.jgit.util.FileUtils.mkdirs(FileUtils.java:421) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
-	at org.eclipse.jgit.internal.storage.file.LockFile.lock(LockFile.java:144) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
-	at org.eclipse.jgit.storage.file.FileBasedConfig.save(FileBasedConfig.java:201) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
-	at org.eclipse.jgit.util.FS$FileStoreAttributes.saveToConfig(FS.java:776) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
-	at org.eclipse.jgit.util.FS$FileStoreAttributes.lambda$5(FS.java:458) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
-	at java.base/java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1128) [?:?]
-	at java.base/java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:628) [?:?]
+INFO    11 Feb 2025 14:36:08 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:10 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:11 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:14 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:15 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:16 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:19 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:20 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:24 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:30 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:36:31 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+ERROR   11 Feb 2025 14:36:32 org.hibernate.engine.jdbc.spi.SqlExceptionHelper - (conn=127) Table 'jwdb.app_fd_teacher' doesn't exist
+INFO    11 Feb 2025 14:39:30 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:39:31 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:39:35 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:39:37 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:39:38 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:39:39 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:39:40 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:39:40 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:39:45 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:39:50 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:05 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:06 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:07 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:08 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:21 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:22 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:22 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:23 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:24 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
+INFO    11 Feb 2025 14:42:24 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:24 org.joget.apps.app.service.AppDevUtil - Push to Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+ERROR   11 Feb 2025 14:42:26 org.joget.apps.app.web.GitRequestFilter$1 - https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+org.eclipse.jgit.api.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:168) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.joget.apps.app.service.AppDevUtil.gitPullAndPush(AppDevUtil.java:728) ~[classes/:?]
+	at org.joget.apps.app.web.GitRequestFilter$1.run(GitRequestFilter.java:147) [classes/:?]
 	at java.base/java.lang.Thread.run(Thread.java:829) [?:?]
-INFO    11 Feb 2025 13:21:38 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by roleAnonymous: Initial commit for appcenter_1
-INFO    11 Feb 2025 13:21:44 org.joget.apps.app.service.AppDevUtil - Git project init complete for app {id=appcenter, version=1, published=true}
-INFO    11 Feb 2025 13:21:46 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by roleAnonymous: Update list applist. _Update userview home. _Update internal INTERNAL_TAGGING. _Update INTERNAL_USERVIEW_PAGE up-8C70B71371B942B6D48A7E9B4C1DB8D1. _Update app definition appcenter. _Update app config appcenter. _
-INFO    11 Feb 2025 13:21:55 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
-INFO    11 Feb 2025 13:21:59 org.joget.apps.app.service.AppDevUtil - Git project not found, first time init for app {id=crm_community, version=1, published=true}
-INFO    11 Feb 2025 13:21:59 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by roleAnonymous: Initial commit for crm_community_1
-INFO    11 Feb 2025 13:22:01 org.enhydra.shark.SharkUtilitiesAspect - Cache object id range : [1000400 - 1000600]
-INFO    11 Feb 2025 13:22:02 org.joget.apps.app.service.AppDevUtil - Git project init complete for app {id=crm_community, version=1, published=true}
-INFO    11 Feb 2025 13:22:02 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by roleAnonymous: Update form crm_account. _Update form crm_contact. _Update form crm_opportunity. _Update form crm_proposal_approval_form. _Update form crm_proposal_form. _Update form crm_proposal_resubmit_form. _Update form crm_proposal_sending_form. _Update list crm_account_list. _Update list crm_contact_list. _Update list crm_opportunity_list. _Update list Proposal. _Update userview crm_userview_sales. _Update app definition crm_community. _Update app config crm_community. _Update xpdl crm_community. _
-INFO    11 Feb 2025 13:22:19 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (172.20.0.1) : true
-INFO    11 Feb 2025 13:22:40 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Initial commit for app_1
-INFO    11 Feb 2025 13:22:41 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition app. _Update app config app. _
-INFO    11 Feb 2025 13:22:41 org.joget.apps.app.service.AppDevUtil - Git is locked. Wait 100ms...
-INFO    11 Feb 2025 13:23:05 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form student. _
-INFO    11 Feb 2025 13:25:48 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
-INFO    11 Feb 2025 13:27:37 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add userview app. _
-INFO    11 Feb 2025 13:29:33 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
-INFO    11 Feb 2025 13:29:49 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
-ERROR   11 Feb 2025 13:30:22 org.hibernate.engine.jdbc.spi.SqlExceptionHelper - (conn=48) Table 'jwdb.app_fd_student' doesn't exist
-INFO    11 Feb 2025 13:35:18 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
-INFO    11 Feb 2025 13:40:24 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
-INFO    11 Feb 2025 13:40:32 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
-INFO    11 Feb 2025 13:53:47 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
-INFO    11 Feb 2025 13:53:47 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
-INFO    11 Feb 2025 13:53:47 org.displaytag.properties.TableProperties - LocaleResolver initialized to org.joget.apps.app.web.LocalLocaleResolver.
-INFO    11 Feb 2025 13:54:04 org.joget.apps.workflow.security.WorkflowAuthenticationProvider - Authentication for user admin (172.20.0.1) : true
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:67) [wflow-commons-8.1.10.jar:?]
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:695) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1557) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	... 4 more
+INFO    11 Feb 2025 14:42:26 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:27 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:27 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:28 org.joget.apps.app.service.AppDevUtil - Change detected (Tue Feb 11 14:42:24 UTC 2025 vs Tue Feb 11 14:42:23 UTC 2025), init sync for app {id=app, version=1, published=true}
+INFO    11 Feb 2025 14:42:28 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:29 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:30 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:30 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:31 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:31 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:32 org.joget.apps.app.service.AppDevUtil - Change detected (Tue Feb 11 14:42:24 UTC 2025 vs Tue Feb 11 14:42:23 UTC 2025), init sync for app {id=app, version=1, published=true}
+INFO    11 Feb 2025 14:42:32 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:32 org.joget.apps.app.service.AppDevUtil - Sync complete for app {id=app, version=1, published=true}
+INFO    11 Feb 2025 14:42:33 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:33 org.joget.apps.app.service.AppDevUtil - Sync complete for app {id=app, version=1, published=true}
+INFO    11 Feb 2025 14:42:33 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:35 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:36 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:47 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:48 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:49 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:49 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:55 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
