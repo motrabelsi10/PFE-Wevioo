@@ -1,0 +1,89 @@
+INFO    11 Feb 2025 13:22:40 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Initial commit for app_1
+INFO    11 Feb 2025 13:22:41 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update app definition app. _Update app config app. _
+INFO    11 Feb 2025 13:22:41 org.joget.apps.app.service.AppDevUtil - Git is locked. Wait 100ms...
+INFO    11 Feb 2025 13:23:05 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form student. _
+INFO    11 Feb 2025 13:25:48 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
+INFO    11 Feb 2025 13:27:37 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add userview app. _
+INFO    11 Feb 2025 13:29:33 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
+INFO    11 Feb 2025 13:29:49 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
+ERROR   11 Feb 2025 13:30:22 org.hibernate.engine.jdbc.spi.SqlExceptionHelper - (conn=48) Table 'jwdb.app_fd_student' doesn't exist
+INFO    11 Feb 2025 13:35:18 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
+INFO    11 Feb 2025 13:40:24 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
+INFO    11 Feb 2025 13:40:32 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
+INFO    11 Feb 2025 14:20:07 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:29:16 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:29:18 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Add form teacher. _
+INFO    11 Feb 2025 14:29:20 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:29:20 org.joget.apps.app.service.AppDevUtil - Push to Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+ERROR   11 Feb 2025 14:29:24 org.joget.apps.app.web.GitRequestFilter$1 - https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+org.eclipse.jgit.api.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:168) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.joget.apps.app.service.AppDevUtil.gitPullAndPush(AppDevUtil.java:728) ~[classes/:?]
+	at org.joget.apps.app.web.GitRequestFilter$1.run(GitRequestFilter.java:147) [classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:829) [?:?]
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:67) [wflow-commons-8.1.10.jar:?]
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:695) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1557) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	... 4 more
+INFO    11 Feb 2025 14:30:10 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:30:12 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form teacher. _
+INFO    11 Feb 2025 14:30:12 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:30:13 org.joget.apps.app.service.AppDevUtil - Push to Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+ERROR   11 Feb 2025 14:30:15 org.joget.apps.app.web.GitRequestFilter$1 - https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+org.eclipse.jgit.api.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:168) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.joget.apps.app.service.AppDevUtil.gitPullAndPush(AppDevUtil.java:728) ~[classes/:?]
+	at org.joget.apps.app.web.GitRequestFilter$1.run(GitRequestFilter.java:147) [classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:829) [?:?]
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:67) [wflow-commons-8.1.10.jar:?]
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:695) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1557) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	... 4 more
+INFO    11 Feb 2025 14:33:46 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:33:47 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update userview app. _
+INFO    11 Feb 2025 14:33:49 org.joget.apps.app.service.AppDevUtil - Push to Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+ERROR   11 Feb 2025 14:33:56 org.joget.apps.app.web.GitRequestFilter$1 - https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+org.eclipse.jgit.api.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:168) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.joget.apps.app.service.AppDevUtil.gitPullAndPush(AppDevUtil.java:728) ~[classes/:?]
+	at org.joget.apps.app.web.GitRequestFilter$1.run(GitRequestFilter.java:147) [classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:829) [?:?]
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:67) [wflow-commons-8.1.10.jar:?]
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:695) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1557) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	... 4 more
+ERROR   11 Feb 2025 14:36:32 org.hibernate.engine.jdbc.spi.SqlExceptionHelper - (conn=127) Table 'jwdb.app_fd_teacher' doesn't exist
+INFO    11 Feb 2025 14:42:23 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:24 org.joget.apps.app.service.AppDevUtil - Commit to Git repo by admin: Update form student. _
+INFO    11 Feb 2025 14:42:24 org.joget.apps.app.service.AppDevUtil - Pull from Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+INFO    11 Feb 2025 14:42:24 org.joget.apps.app.service.AppDevUtil - Push to Git remote repo: https://github.com/motrabelsi10/PFE-Wevioo.git
+ERROR   11 Feb 2025 14:42:26 org.joget.apps.app.web.GitRequestFilter$1 - https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+org.eclipse.jgit.api.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:168) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.joget.apps.app.service.AppDevUtil.gitPullAndPush(AppDevUtil.java:728) ~[classes/:?]
+	at org.joget.apps.app.web.GitRequestFilter$1.run(GitRequestFilter.java:147) [classes/:?]
+	at java.base/java.lang.Thread.run(Thread.java:829) [?:?]
+	at org.joget.commons.util.PluginThread.run(PluginThread.java:67) [wflow-commons-8.1.10.jar:?]
+Caused by: org.eclipse.jgit.errors.TransportException: https://github.com/motrabelsi10/PFE-Wevioo.git: not authorized
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:695) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.connect(TransportHttp.java:637) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.TransportHttp.openPush(TransportHttp.java:541) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.PushProcess.execute(PushProcess.java:140) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.transport.Transport.push(Transport.java:1557) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	at org.eclipse.jgit.api.PushCommand.call(PushCommand.java:158) ~[org.eclipse.jgit-6.8.0.202311291450-r.jar:6.8.0.202311291450-r]
+	... 4 more
